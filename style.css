@@ -1,0 +1,22 @@
+body { 
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+}
+
+nav input[type="text"] {
+    width: 100%;
+}
+
+main { 
+    display: grid;
+    height: 200vh;
+    grid-template-columns: 1fr 3fr 2fr;
+}
